@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bùi Thị Hậu - Website cá nhân</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff0f5;
+            color: #444;
+        }
+
+        /* PHẦN ĐẦU TRANG */
+
+        header {
+            background: linear-gradient(135deg, #f7a8c8, #e77eaa);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* THANH MENU */
+
+        nav {
+            background: white;
+            padding: 18px;
+            text-align: center;
+            box-shadow: 0 2px 8px #f1d5e0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #d65b91;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #a52d66;
+        }
+
+        /* NỘI DUNG CHÍNH */
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px #edc9d9;
+            text-align: center;
+        }
+
+        h2 {
+            color: #d65b91;
+            margin-bottom: 20px;
+        }
+
+        /* ẢNH ĐẠI DIỆN */
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #f7c1d8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            font-size: 55px;
+        }
+
+        /* THÔNG TIN CÁ NHÂN */
+
+        .info {
+            line-height: 2.2;
+            font-size: 17px;
+            text-align: left;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .info strong {
+            color: #d65b91;
+        }
+
+        /* NÚT BẤM */
+
+        button {
+            background: #e77eaa;
+            color: white;
+            border: none;
+            padding: 13px 28px;
+            border-radius: 30px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #cf568b;
+            transform: scale(1.05);
+        }
+
+        /* CHÂN TRANG */
+
+        footer {
+            background: #e77eaa;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            line-height: 1.8;
+        }
+
+        /* HIỂN THỊ TRÊN ĐIỆN THOẠI */
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 29px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px;
+                font-size: 14px;
+            }
+
+            .card {
+                padding: 25px 18px;
+            }
+
+            .info {
+                font-size: 15px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- PHẦN ĐẦU TRANG -->
+
+    <header>
+
+        <h1>BÙI THỊ HẬU</h1>
+
+        <p>Welcome to my personal website ♡</p>
+
+        <p>✨ Chào mừng đến với thế giới của tôi ✨</p>
+
+    </header>
+
+
+    <!-- THANH ĐIỀU HƯỚNG -->
+
+    <nav>
+
+        <a href="#home">Trang chủ</a>
+
+        <a href="#about">Giới thiệu</a>
+
+        <a href="#hobby">Sở thích</a>
+
+        <a href="#goal">Mục tiêu</a>
+
+        <a href="#contact">Liên hệ</a>
+
+    </nav>
+
+
+    <!-- NỘI DUNG WEBSITE -->
+
+    <div class="container">
+
+
+        <!-- TRANG CHỦ -->
+
+        <section class="card" id="home">
+
+            <div class="avatar">
+                🌷
+            </div>
+
+            <h2>Xin chào! Tôi là Hậu</h2>
+
+            <p>
+                Chào mừng mọi người đến với website cá nhân
+                của Bùi Thị Hậu.
+            </p>
+
+            <p>
+                Đây là nơi lưu giữ những thông tin,
+                sở thích và hành trình phát triển của tôi.
+            </p>
+
+        </section>
+
+
+
+        <!-- GIỚI THIỆU BẢN THÂN -->
+
+        <section class="card" id="about">
+
+            <h2>♡ GIỚI THIỆU BẢN THÂN ♡</h2>
+
+            <div class="info">
+
+                <p>
+                    <strong>Họ và tên:</strong>
+                    Bùi Thị Hậu
+                </p>
+
+                <p>
+                    <strong>Mã sinh viên:</strong>
+                    PK 04855
+                </p>
+
+                <p>
+                    <strong>Quê quán:</strong>
+                    Thái Bình
+                </p>
+
+                <p>
+                    <strong>Nơi sống:</strong>
+                    Đắk Lắk
+                </p>
+
+                <p>
+                    <strong>Nghề nghiệp:</strong>
+                    Sinh viên
+                </p>
+
+                <p>
+                    <strong>Lĩnh vực quan tâm:</strong>
+                    Công nghệ thông tin
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SỞ THÍCH -->
+
+        <section class="card" id="hobby">
+
+            <h2>♡ SỞ THÍCH CỦA TÔI ♡</h2>
+
+            <div class="info">
+
+                <p>🎵 Nghe nhạc</p>
+
+                <p>📚 Học hỏi những điều mới</p>
+
+                <p>💻 Tìm hiểu công nghệ và lập trình</p>
+
+                <p>🌸 Khám phá những điều thú vị trong cuộc sống</p>
+
+                <p>📷 Lưu giữ những khoảnh khắc đẹp</p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MỤC TIÊU -->
+
+        <section class="card" id="goal">
+
+            <h2>♡ MỤC TIÊU CỦA TÔI ♡</h2>
+
+            <div class="info">
+
+                <p>🎯 Hoàn thành tốt chương trình học.</p>
+
+                <p>💻 Nâng cao kiến thức về lập trình web.</p>
+
+                <p>📖 Phát triển kỹ năng tiếng Anh.</p>
+
+                <p>🌷 Không ngừng học hỏi và hoàn thiện bản thân.</p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LIÊN HỆ -->
+
+        <section class="card" id="contact">
+
+            <h2>♡ LIÊN HỆ VỚI TÔI ♡</h2>
+
+            <p>
+                Cảm ơn bạn đã ghé thăm website cá nhân của tôi!
+            </p>
+
+            <button onclick="alert('Cảm ơn bạn đã ghé thăm website của Bùi Thị Hậu! ♡')">
+
+                Gửi lời chào 💗
+
+            </button>
+
+        </section>
+
+
+    </div>
+
+
+    <!-- CHÂN TRANG -->
+
+    <footer>
+
+        <p>© 2026 - BÙI THỊ HẬU</p>
+
+        <p>Mã sinh viên: PK 04855</p>
+
+        <p>Made with love ♡</p>
+
+    </footer>
+
+
+</body>
+
+</html>
